@@ -1,0 +1,28 @@
+body{
+    width: 500px;
+    margin: auto;
+    padding: 0;
+    background-color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#results{
+    margin: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.image{
+    width: 50px;
+    max-height: 50px;
+    height: auto;
+    border: solid 2px #ddd;
+}
+
+.image:hover{
+    border: solid 2px #ffaa44;
+}
+
+.selected{
+    border: solid 2px #aaff44
+}
